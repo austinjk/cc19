@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$sp-page-padding-top: 70px;</css_variables>
+        <footer/>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="coolconf_header">2f0bd8a8e54133007f4465064edd2e48</header>
+        <name>coolconf_theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 23:06:08</sys_created_on>
+        <sys_id>08cf88e4e54133007f4465064edd2eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coolconf_theme</sys_name>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_update_name>sp_theme_08cf88e4e54133007f4465064edd2eb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 23:06:08</sys_updated_on>
+    </sp_theme>
+</record_update>

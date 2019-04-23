@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">649dcca4e54133007f4465064edd2e4f</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 23:04:18</sys_created_on>
+        <sys_id>d1da58a8e54133007f4465064edd2e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_update_name>sp_instance_d1da58a8e54133007f4465064edd2e67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 23:04:18</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d1da58a8e54133007f4465064edd2e67"/>
+</record_update>

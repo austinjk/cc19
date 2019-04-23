@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_snc_coolconf19.sw_installer</name>
+        <script><![CDATA[var sw = '/x_snc_coolconf19.service_worker.jsdbx';
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register(sw, { scope: '/coolconf19'
+}).then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+]]></script>
+        <script_name>sw_installer</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 23:13:03</sys_created_on>
+        <sys_id>75bcd0e8e54133007f4465064edd2e84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_coolconf19.sw_installer</sys_name>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_update_name>sys_ui_script_75bcd0e8e54133007f4465064edd2e84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 23:13:03</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

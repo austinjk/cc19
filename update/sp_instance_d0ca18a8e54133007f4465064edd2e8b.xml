@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7a2d0ca4e54133007f4465064edd2eaa</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 23:03:57</sys_created_on>
+        <sys_id>d0ca18a8e54133007f4465064edd2e8b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_update_name>sp_instance_d0ca18a8e54133007f4465064edd2e8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-23 18:07:58</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"accordion-container-question\"><h3>What’s the Vegas Experience?</h3></div><div class=\"accordion-container-answer\"><p>The Vegas Experience &nbsp;is our closing party on Thursday night, May 9, 2019. Choose from one of four evening options when you build your personal agenda.</p><p>&nbsp;<br></p><div class=\"accordion-container-question\"><h3>How do I attend my Vegas Experience selection?</h3></div><div class=\"accordion-container-answer\"><p>To attend your Vegas Experience adventure, you must have your conference badge, a government-issued photo ID, and the credentials or ticket provided. We will not admit anyone without these credentials.</p><p>&nbsp;<br></p><div class=\"accordion-container-question\"><h3>Is there an age limit?</h3></div><div class=\"accordion-container-answer\"><p>The age limit to attend the Vegas Experience parties is 21 years and older. You must have a government-issued photo ID to attend the Vegas Experience.</p><p>&nbsp;<br></p><div class=\"accordion-container-question\"><h3>Will there be transportation?</h3></div><div class=\"accordion-container-answer\"><p>Transportation shuttles will be provided for conference attendees and their registered guests to their Vegas Experience selection. More information will be available at the event, including details in the mobile app.</p><p>&nbsp;<br></p><div class=\"accordion-container-question\"><h3>Can I get into the parties without my credentials or ticket?</h3></div><div class=\"accordion-container-answer\"><p>No. Lost credentials may result in your not attending the party.</p></div></div></div></div></div>",
+		"displayValue": "<div class=\"accordion-container-question\">\n<h3>What&rsquo;s the Vegas Experience?</h3>\n</div>\n<div class=\"accordion-container-answer\">\n<p>The Vegas Experience &nbsp;is our closing party on Thursday night, May 9, 2019. Choose from one of four evening options when you build your personal agenda.</p>\n<p>&nbsp;</p>\n<div class=\"accordion-container-question\">\n<h3>How do I attend my Vegas Experience selection?</h3>\n</div>\n<div class=\"accordion-container-answer\">\n<p>To attend your Vegas Experience adventure, you must have your conference badge, a government-issued photo ID, and the credentials or ticket provided. We will not admit anyone without these credentials.</p>\n<p>&nbsp;</p>\n<div class=\"accordion-container-question\">\n<h3>Is there an age limit?</h3>\n</div>\n<div class=\"accordion-container-answer\">\n<p>The age limit to attend the Vegas Experience parties is 21 years and older. You must have a government-issued photo ID to attend the Vegas Experience.</p>\n<p>&nbsp;</p>\n<div class=\"accordion-container-question\">\n<h3>Will there be transportation?</h3>\n</div>\n<div class=\"accordion-container-answer\">\n<p>Transportation shuttles will be provided for conference attendees and their registered guests to their Vegas Experience selection. More information will be available at the event, including details in the mobile app.</p>\n<p>&nbsp;</p>\n<div class=\"accordion-container-question\">\n<h3>Can I get into the parties without my credentials or ticket?</h3>\n</div>\n<div class=\"accordion-container-answer\">\n<p>No. Lost credentials may result in your not attending the party.</p>\n</div>\n</div>\n</div>\n</div>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d0ca18a8e54133007f4465064edd2e8b"/>
+</record_update>

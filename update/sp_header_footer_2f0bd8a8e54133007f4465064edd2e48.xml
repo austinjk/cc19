@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {
+    var c = this;
+    c.goBack = function() {
+        window.history.back();
+    }
+    
+    
+    // Don't display back button when user is on HomePage
+    c.displayBackButton = function() {
+        if (window.location.search == "")
+            return false;
+        else
+            return true;
+    }
+    
+    c.reloadPage = function() {
+        location.reload();
+    }
+    
+    c.online = true;
+    function updateOnlineStatus(event) {
+        c.online =  navigator.onLine;
+    }
+    
+    window.addEventListener('online',  updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+    
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>nav {&#13;
+    height: 40px;&#13;
+    position: fixed;&#13;
+    top: 0;&#13;
+    left: 0;&#13;
+    width: 100vw;&#13;
+    z-index: 99999;&#13;
+}&#13;
+&#13;
+.cc-nav-btn {&#13;
+    width: 100px;&#13;
+    text-align: center;&#13;
+    color: black;&#13;
+    cursor: pointer;&#13;
+    display: flex;&#13;
+    justify-content: center;&#13;
+    align-items: stretch;&#13;
+}&#13;
+&#13;
+.cc-nav-btn .glyphicon {&#13;
+    line-height: 60px;&#13;
+    flex-grow: 1;&#13;
+}&#13;
+&#13;
+img {&#13;
+    height: 100%;&#13;
+    margin: auto;&#13;
+}&#13;
+&#13;
+.navbar-brand {&#13;
+    padding: 0;&#13;
+    flex-grow: 1;&#13;
+}&#13;
+.navbar-header {&#13;
+    width: 100%;&#13;
+    display: flex;&#13;
+    justify-content: space-between;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>coolconf_header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>coolconf_header</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-22 23:06:04</sys_created_on>
+        <sys_id>2f0bd8a8e54133007f4465064edd2e48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>coolconf_header</sys_name>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_update_name>sp_header_footer_2f0bd8a8e54133007f4465064edd2e48</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-22 23:06:04</sys_updated_on>
+        <template><![CDATA[<nav class="navbar navbar-default">
+    <div class="navbar-header">
+    <a class="cc-nav-btn">
+        <span class="glyphicon glyphicon-chevron-left" ng-click="c.goBack()" ng-show="c.displayBackButton()"></span>
+    </a>
+    <a class="navbar-brand" href="/coolconf19">
+        <img alt="Brand" ng-src="/{{portal.logo}}">
+    </a>
+    <a class="cc-nav-btn">
+        <span class="glyphicon glyphicon-refresh" ng-click="c.reloadPage()"  ng-show="c.online"></span>
+    </a>
+    </div>
+</nav>]]></template>
+    </sp_header_footer>
+</record_update>
