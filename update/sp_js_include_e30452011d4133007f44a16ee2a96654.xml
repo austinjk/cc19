@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_js_include">
+    <sp_js_include action="INSERT_OR_UPDATE">
+        <display_name>sw_installer</display_name>
+        <source>local</source>
+        <sys_class_name>sp_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-24 21:16:43</sys_created_on>
+        <sys_id>e30452011d4133007f44a16ee2a96654</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sw_installer</sys_name>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_ui_script display_value="x_snc_coolconf19.sw_installer">6c8356cd1d0133007f44a16ee2a9669f</sys_ui_script>
+        <sys_update_name>sp_js_include_e30452011d4133007f44a16ee2a96654</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-24 21:16:43</sys_updated_on>
+        <url/>
+    </sp_js_include>
+</record_update>

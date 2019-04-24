@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include">
+    <m2m_sp_theme_js_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_js_include display_value="sw_installer">e30452011d4133007f44a16ee2a96654</sp_js_include>
+        <sp_theme display_value="coolconf_theme">08cf88e4e54133007f4465064edd2eb9</sp_theme>
+        <sys_class_name>m2m_sp_theme_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-24 21:20:33</sys_created_on>
+        <sys_id>d1461e011d4133007f44a16ee2a9661d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sw_installer.coolconf_theme</sys_name>
+        <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
+        <sys_update_name>m2m_sp_theme_js_include_d1461e011d4133007f44a16ee2a9661d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-24 21:20:33</sys_updated_on>
+    </m2m_sp_theme_js_include>
+</record_update>
