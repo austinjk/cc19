@@ -16,20 +16,20 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-22 23:04:14</sys_created_on>
         <sys_id>6cda58a8e54133007f4465064edd2e1c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package display_value="CoolConf19" source="x_snc_coolconf19">5aba8c24e54133007f4465064edd2ee1</sys_package>
         <sys_policy/>
         <sys_scope display_value="CoolConf19">5aba8c24e54133007f4465064edd2ee1</sys_scope>
         <sys_update_name>sp_instance_6cda58a8e54133007f4465064edd2e1c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-23 18:24:31</sys_updated_on>
+        <sys_updated_on>2019-04-24 20:28:40</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"html": {
-		"value": "<h3>CoolConf19</h3><p><strong>CoolConf19</strong> is the 2019 edition of the <strong>CoolConf</strong> conference.</p><p>It is a yearly <strong>ground breaking</strong> conference that doesn't exist, has no keynotes, no participants and no entry ticket fees.<br></p><p>It does however have a <strong>Progressive Web App</strong> available for all attendees.</p>",
-		"displayValue": "<h3>CoolConf19</h3>\n<p><strong>CoolConf19</strong> is the 2019 edition of the <strong>CoolConf</strong> conference.</p>\n<p>It is a yearly <strong>ground breaking</strong> conference that doesn't exist, has no keynotes, no participants and no entry ticket fees.</p>\n<p>It does however have a <strong>Progressive Web App</strong> available for all attendees.</p>"
+		"value": "<h3 style=\"text-align: center;\" data-mce-style=\"text-align: center;\">&nbsp;</h3><p style=\"text-align: center;\" data-mce-style=\"text-align: center;\"><img src=\"coolconf_icon.png\" width=\"128\" height=\"128\" data-mce-src=\"coolconf_icon.png\"></p><p style=\"text-align: left;\" data-mce-style=\"text-align: left;\">&nbsp;</p><p style=\"text-align: left;\" data-mce-style=\"text-align: left;\"><strong>CoolConf19</strong> is the 2019 edition of the <strong>CoolConf</strong> conference.</p><p style=\"text-align: left;\" data-mce-style=\"text-align: left;\">It is a yearly <strong>ground breaking</strong> conference that doesn't exist, has no keynotes, no participants and no entry ticket fees.</p><p>It does however have a <strong>Progressive Web App</strong> available for all attendees.</p>",
+		"displayValue": "<h3 style=\"text-align: center;\">&nbsp;</h3>\n<p style=\"text-align: center;\"><img src=\"coolconf_icon.png\" width=\"128\" height=\"128\" /></p>\n<p style=\"text-align: left;\">&nbsp;</p>\n<p style=\"text-align: left;\"><strong>CoolConf19</strong> is the 2019 edition of the <strong>CoolConf</strong> conference.</p>\n<p style=\"text-align: left;\">It is a yearly <strong>ground breaking</strong> conference that doesn't exist, has no keynotes, no participants and no entry ticket fees.</p>\n<p>It does however have a <strong>Progressive Web App</strong> available for all attendees.</p>"
 	}
 }]]></widget_parameters>
     </sp_instance>
